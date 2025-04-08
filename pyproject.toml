@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nextcore"
-version = "2.0.2"
+version = "2.0.3"
 description = "A low level Discord API wrapper"
 authors = ["tag-epic"]
 license = "MIT"
@@ -38,7 +38,7 @@ types-frozendict = "^2.0.6" # Could we extend the version requirement
 typing-extensions = "^4.1.1" # Same as above
 orjson = {version = "^3.6.8", optional = true}
 types-orjson = {version = "^3.6.2", optional = true}
-discord-typings = "^0.5.0"
+discord-typings = "^0.9.0"
 
 [tool.poetry.group.dev.dependencies]
 Sphinx = "^5.0.0"
